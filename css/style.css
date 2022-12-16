@@ -1,0 +1,5 @@
+function select(){
+	var img_actor = document.getElementById('actorselect').value
+	console.log(actorselect)
+	document.getElementById('img_actor').src="img/"+actorselect+".jpg"
+}
